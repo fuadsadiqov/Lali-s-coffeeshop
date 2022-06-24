@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Lali's coffeeshop</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./globalStyle.css">
+    <link rel="stylesheet" href="./components.css">
+    <!----aos.css---->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+    <!----Nav Section---->
+     <div class="nav">
+         <div class="container">
+             <div class="nav__wrapper">
+                 <a href="./index.html" class="logo">
+                    <img src="coffee.svg">
+                 </a>
+                 <nav>
+                     <div class="nav__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-menu">
+                        <line x1="3" y1="12" x2="21" y2="12" />
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <line x1="3" y1="18" x2="21" y2="18" />
+                      </svg>
+                     </div>
+                     <div class="nav__bgOverlay"></div>
+                     <ul class="nav__list">
+                         <div class="nav__close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-x">
+                            <line x1="18" y1="6" x2="6" y2="18" />
+                            <line x1="6" y1="6" x2="18" y2="18" />
+                          </svg>
+                         </div>
+                         <div class="nav__list__wrapper">
+                             <li><a href="./index.html" class="nav__link">Əsas səhifə</a></li> 
+                             <li><a href="./menu.html" class="nav__link">Menü</a></li>
+                             <li><a href="./about.html" class="nav__link">Haqqımızda</a></li>
+                             <li><a href="./contact.html" class="nav__link">Əlaqə</a></li>
+                             <li><a href="./booking.html" class="btn primary-btn">Indi sifariş edin</a></li>
+                         </div>
+                     </ul>
+                 </nav>
+             </div>
+         </div>
+     </div>
+    <!---End-Nav Section---->
+   <!---Hero Section-->
+   <section id="hero">
+       <div class="container">
+           <div class="hero__wrapper">
+               <div class="hero__left" data-aos="fade-left">
+                   <div class="hero__left__wrapper">
+                       <h1 class="hero__heading">Yaxşı ideyalar müzakirə ilə başlayır, möhtəşəm ideyalar isə bir fincan kofe ilə! </h1>
+                       <div class="hero__info">
+                        Qəhvə qovrulmuş qəhvə dənələrindən, coffea cinsinə aid bəzi çiçəkli bitkilərin giləmeyvə toxumlarından hazırlanan dəmlənmiş içkidir. 
+                       </div>
+                       <div class="button__wrapper">
+                           <a href="./menu.html" class="btn primary-btn">Menyunu incələ</a>
+                           <a href="./booking.html" class="btn">Indi sifariş edin</a>
+                       </div>
+                    </div>
+               </div>
+               <div class="hero__right" data-aos="fade-right">
+                   <div class="hero__imgWrapper">
+                       <div class="hero__imgWrapper2">
+                       <img src="coffeeshop.jpg" alt="">
+                       </div>
+                    </div>
+                    </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <!---End-Hero Section-->
+   <!--Store Info Section-->
+    <section id="storeInfo" data-aos="fade-up">
+        <div class="container">
+            <div class="storeInfo__wrapper">
+                <div class="storeInfo__item">
+                    <div class="storeInfo__icon">
+                        <img src="wall-clock.svg" alt="icon">
+                    </div>
+                    <h3 class="storeInfo__title">
+                        10:00 - 19:00
+                    </h3>
+                    <p>
+                        Açılış saatı
+                    </p>
+                </div>
+                <div class="storeInfo__item">
+                    <div class="storeInfo__icon">
+                        <img src="address.svg" alt="icon">
+                    </div>
+                    <h3 class="storeInfo__title">
+                        Baku, Azerbaijan
+                    </h3>
+                    <p>
+                        Ünvan
+                    </p>
+                </div>
+                <div class="storeInfo__item">
+                    <div class="storeInfo__icon">
+                        <img src="phone.svg" alt="icon">
+                    </div>
+                    <h3 class="storeInfo__title">
+                        +994-50-303-84-06
+                    </h3>
+                    <p>
+                        Əlaqə nömrəsi
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!--End-Store Info Section-->
+   <!---Our Specials Section--->
+   <section id="ourSpecials" data-aos="fade-up">
+      <div class="container">
+          <div class="ourSpecials__wrapper">
+              <div class="ourSpecials__left">
+                  <div class="ourSpecials__item">
+                      <div class="ourSpecials__item__img">
+                          <img src="latte.jpg" alt="coffee img">
+                      </div>
+                      <h2 class="ourSpecials__item__title">Latte</h2>
+                      <h3 class="ourSpecials__item__price">5$</h3>
+                      <p class="ourSpecials__item__text">
+                        Qaranlıq, zəngin espressomuz buxarda hazırlanmış süd və yüngül köpük təbəqəsi ilə balanslaşdırılmışdır. Süd üçün mükəmməl istiləşmə.
+                      </p>
+                  </div>
+                  <div class="ourSpecials__item">
+                    <div class="ourSpecials__item__img">
+                        <img src="cappuccino.jpg" alt="coffee img">
+                    </div>
+                    <h2 class="ourSpecials__item__title">Cappuccino</h2>
+                    <h3 class="ourSpecials__item__price">6$</h3>
+                    <p class="ourSpecials__item__text">
+                        Tünd, zəngin espresso hamarlanmış və uzanmış qalın süd köpüyü təbəqəsi altında pusqudadır. Barista sənətinin və sənətkarlığının kimyagərliyi.
+                      </p>
+                </div>
+              </div>
+              <div class="ourSpecials__right">
+                  <h2 class="ourSpecials__title">Bizim təklif etdiklərimiz</h2>
+                  <p class="ourSpecials__text">
+                    İstər fincanınızı isitmək üçün yeni bir şey axtarırsınız, istər sevimli qarışımınız üçün ən yaxşı 
+                    dəmləmə üsulunu axtarırsınız, istərsə də ən nadir təkliflərimizi araşdırırsınız, doğru yerə gəldiniz.
+                  </p>
+                  <a href="./booking.html" class="btn primary-btn">Indi sifariş edin</a>
+              </div>
+          </div>
+      </div>
+   </section>
+   <!---End-Our Specials Section--->
+   <!--Top dishes-->
+    <section id="dishGrid" data-aos="fade-up">
+        <div class="container">
+            <h2 class="dishGrid__title">
+                Soyuq içkilər
+            </h2>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="iced-americano.jpg" alt="">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <div class="dishGrid__item__title">
+                            <h3>
+                                Iced Americano
+                            </h3>
+                        <h3 class="dishGrid__item__price">
+                        5$
+                        </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="iced-espresso.jpg" alt="">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <div class="dishGrid__item__title">
+                            <h3>
+                                Iced Espresso
+                            </h3>
+                        <h3 class="dishGrid__item__price">
+                        6$
+                        </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="iced-latte.png" alt="">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <div class="dishGrid__item__title">
+                            <h3>
+                                Iced Caffè Latte
+                            </h3>
+                        <h3 class="dishGrid__item__price">
+                        6$
+                        </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!--End-of-Top dishes-->
+   <!--Discount-->
+   <section id="discount" data-aos="fade-up">
+      <div class="container">
+        <div class="discount__wrapper">
+            <div class="discount__images">
+                <div class="discount__img1">
+                    <img src="caramel-macchiato.jpg" alt="coffee img">
+                </div>
+                <div class="discount__img2">
+                    <img src="espresso-machiato.jpg" alt="coffee img">
+                </div>
+            </div>
+            <div class="discount__info">
+                <h3 class="discount__text">
+                    20% OFF
+                </h3>
+                <h3 class="discount__title">
+                    Endirimdə olan içkilər
+                </h3>
+                <h3 class="discount__price">
+                    <span class="discount__oldPrice">
+                        10$
+                    </span>
+                    <span class="discount__newPrice">
+                        8$
+                    </span>
+                </h3>
+                <a href="./booking.html" class="btn primary-btn discount__btn">Indi sifariş edin</a>
+            </div>
+        </div>
+      </div>
+   </section>
+   <!--End-of-Discount-->
+   <!--Why us Section-->
+   <section id="whyUs">
+    <div class="whyUs__wrapper">
+        <div class="whyUs__left" data-aos="fade-right">
+            <h2 class="whyUs__title">
+                Niyə bizim kofeləri seçməlisiniz
+            </h2>
+            <p class="whyUs__text">
+                Xidmət keyfiyyəti, içkilər, atmosfer və qiymətlər restoranı seçmək üçün əsas nüanslardır.Əsas məqsədimiz, hər fincanda eyni keyfiyyət və ləzzəti qoruyaraq hər yerdə insanlar üçün əvəzedilməz olmamızı təmin etməkdir. 
+            </p>
+        </div>
+        <div class="whyUs__right" data-aos="fade-left">
+            <div class="whyUs__items__wrapper">
+                <div class="whyUs__item">
+                    <div class="whyUs__item__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M400 192H32C14.25 192 0 206.3 0 224v192c0 53 43 96 96 96h192c53 0 96-43 96-96h16c61.75 0 112-50.25 112-112S461.8 192 400
+                            192zM400 352H384V256h16C426.5 256 448 277.5 448 304S426.5 352 400 352zM107.9 100.7C120.3 107.1 128 121.4 128 136c0
+                            13.25 10.75 23.89 24 23.89S176 148.1 176 135.7c0-31.34-16.83-60.64-43.91-76.45C119.7 52.03 112 38.63 112 24.28c0-13.25-10.75-24.14-24-24.14S64 11.03
+                            64 24.28C64 55.63 80.83 84.92 107.9 100.7zM219.9 100.7C232.3 107.1 240 121.4 240 136c0 13.25 10.75 23.86 24 23.86S288 148.1
+                            288 135.7c0-31.34-16.83-60.64-43.91-76.45C231.7 52.03 224 38.63 224 24.28c0-13.25-10.75-24.18-24-24.18S176 11.03 176 24.28C176 55.63 192.8 84.92 
+                            219.9 100.7z"/>
+                        </svg>
+                        <p class="whyUs__item__text">
+                            Keyfiyyətli içkilər
+                        </p>
+                    </div>
+                    </div>
+                    <div class="whyUs__item">
+                    <div class="whyUs__item__icon">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                    width="536.243px" height="536.242px" viewBox="0 0 536.243 536.242" style="enable-background:new 0 0 536.243 536.242;"
+                        xml:space="preserve">
+                       <g>
+                       <path d="M471.053,197.07c-94.2-101.601-284-183.601-423.5-154.2c-9.2,1.8-12.9,9.2-12.2,16.5c-86.9,47.7,9.2,213,45.9,261.3
+		               c72.2,96.1,200.701,203.2,329.901,173.8c60-13.5,103.399-69.8,120-126.1C550.053,304.77,513.253,242.37,471.053,197.07z
+		               M393.353,465.17c-102.199,23.3-210.5-75.9-271.7-145c-61.2-70.4-108.3-155.4-71-243c83.8,151.8,253.4,269.3,414.9,321.899
+		               c19.601,6.101,28.2-24.5,8.601-31.199C318.753,315.27,166.353,209.97,73.953,72.27c111.4-13.5,238.701,45.9,326.201,107.101
+		               c50.199,35.5,98.5,87.5,102.8,151.8C505.954,394.17,451.454,451.67,393.353,465.17z"/>
+                       </g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                       </svg>
+
+                        <p class="whyUs__item__text">
+                            Klassik dad
+                        </p>
+                    </div>
+                    </div>
+                    <div class="whyUs__item">
+                    <div class="whyUs__item__icon">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                    viewBox="0 0 58 58" style="enable-background:new 0 0 58 58;" xml:space="preserve">
+                        <g>
+ 	                    <path d="M45.768,6.161c-1.884-0.244-3.766-0.099-5.608,0.432C37.517,3.106,33.399,1.047,29,1.047s-8.517,2.06-11.16,5.546
+		                c-1.842-0.529-3.724-0.675-5.608-0.432C5.318,7.057,0.06,12.974,0.001,19.925c-0.055,6.503,4.307,12.141,10.608,13.709
+		                c1.496,0.372,2.6,1.653,2.746,3.188l0.838,8.803l-0.001,0l0.479,5.029c0.204,2.146,2.92,3.619,4.062,4.147
+		                c0.163,0.075,0.294,0.131,0.381,0.167c3.142,1.323,6.514,1.984,9.886,1.984c3.371,0,6.74-0.661,9.877-1.982
+		                c0.702-0.29,4.215-1.864,4.449-4.316l0.479-5.029l-0.001,0l0.838-8.803c0.146-1.535,1.25-2.816,2.746-3.188
+		                C53.692,32.065,58.055,26.428,58,19.925C57.94,12.974,52.682,7.057,45.768,6.161z M38.108,53.125
+		                c-5.789,2.438-12.429,2.439-18.222-0.002c-1.247-0.52-3.134-1.724-3.223-2.658l-0.124-1.298c3.955,1.912,8.137,2.88,12.46,2.88
+		                s8.505-0.968,12.46-2.88l-0.124,1.298C41.248,51.399,39.36,52.604,38.108,53.125z M46.908,31.692
+		                c-2.317,0.577-4.027,2.563-4.254,4.94l-0.968,10.162c-4.004,2.151-8.268,3.252-12.686,3.252s-8.682-1.101-12.686-3.252
+		                l-0.968-10.162c-0.227-2.378-1.937-4.363-4.254-4.94c-5.4-1.344-9.139-6.176-9.092-11.75c0.051-5.958,4.56-11.029,10.489-11.797
+		                c0.504-0.065,1.009-0.099,1.513-0.099c1.313,0,2.621,0.222,3.903,0.663l0.724,0.249l0.43-0.634C21.298,5.021,25.014,3.047,29,3.047
+		                s7.702,1.974,9.941,5.278l0.43,0.634l0.724-0.249c1.774-0.61,3.596-0.8,5.416-0.564C51.439,8.913,55.949,13.984,56,19.942
+		                C56.047,25.517,52.308,30.349,46.908,31.692z"/>
+	                    <path d="M18.876,35.055c-0.548,0.068-0.937,0.568-0.868,1.116l1,8c0.063,0.506,0.494,0.876,0.991,0.876
+		                c0.042,0,0.083-0.003,0.125-0.008c0.548-0.068,0.937-0.568,0.868-1.116l-1-8C19.923,35.374,19.418,34.992,18.876,35.055z"/>
+	                    <path d="M26,37.047c-0.552,0-1,0.447-1,1v8c0,0.553,0.448,1,1,1s1-0.447,1-1v-8C27,37.494,26.552,37.047,26,37.047z"/>
+	                    <path d="M39.124,35.055c-0.543-0.063-1.048,0.319-1.116,0.868l-1,8c-0.068,0.548,0.32,1.048,0.868,1.116
+		                c0.042,0.005,0.084,0.008,0.125,0.008c0.497,0,0.928-0.37,0.991-0.876l1-8C40.061,35.623,39.672,35.123,39.124,35.055z"/>
+	                    <path d="M32,37.047c-0.552,0-1,0.447-1,1v8c0,0.553,0.448,1,1,1c0.552,0,1-0.447,1-1v-8C33,37.494,32.552,37.047,32,37.047z"/>
+	                    <path d="M16.011,11.047c-8.348-0.071-9.973,6.717-9.987,6.786c-0.119,0.539,0.223,1.072,0.762,1.19
+		                c0.072,0.016,0.145,0.023,0.215,0.023c0.459,0,0.874-0.318,0.976-0.786c0.012-0.053,1.211-5.329,8.013-5.214
+		                c0.535-0.037,1.005-0.438,1.011-0.989S16.563,11.053,16.011,11.047z"/>
+	                    <path d="M23.389,7.255c-0.437,0.338-0.518,0.966-0.18,1.403c0.337,0.437,0.966,0.516,1.403,0.181
+		                c0.041-0.033,4.222-3.182,8.816,0.027c0.174,0.122,0.374,0.181,0.572,0.181c0.316,0,0.626-0.149,0.821-0.428
+		                c0.316-0.452,0.206-1.076-0.247-1.392C29.943,3.994,25.233,5.833,23.389,7.255z"/>
+                        </g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                        </svg>
+                        <p class="whyUs__item__text">
+                            Təcrübəli baristalar
+                        </p>
+                    </div>
+                    </div>
+                    <div class="whyUs__item">
+                    <div class="whyUs__item__icon">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                    viewBox="0 0 295.84 295.84" style="enable-background:new 0 0 295.84 295.84;" xml:space="preserve">
+                       <g>
+                       <path d="M90.644,34.525L60.75,61.591c-3.035,2.897-3.211,7.64-0.457,10.655c1.324,1.586,3.444,2.594,5.771,2.594h35.807
+		               c4.231,0,7.547-3.218,7.547-7.449c0-4.289-3.315-7.551-7.547-7.551H85.578l15.212-13.922c5.483-4.955,8.628-12.117,8.628-19.515
+		               c0-6.659-2.412-12.951-6.771-17.62c-4.955-5.483-12.04-8.646-19.437-8.646c-6.658,0-12.91,2.402-17.578,6.76l-3.136,2.826
+		               c-3.073,2.805-3.32,7.483-0.531,10.689c1.465,1.605,3.515,2.526,5.624,2.526c1.861,0,3.661-0.71,5.062-1.988l3.105-2.807
+		               c2.073-1.825,4.721-2.83,7.454-2.83c3.219,0,6.129,1.269,8.182,3.558c1.852,2.104,2.83,4.682,2.83,7.454
+		               C94.223,29.59,92.987,32.423,90.644,34.525z"/>
+	                   <path d="M115.019,60.006c1.262,1.107,2.844,1.834,4.704,1.834h29.197v5.333c0,4.231,3.269,7.547,7.5,7.547s7.5-3.315,7.5-7.547
+		               v-5.726c4-0.466,6.658-3.587,6.658-7.487c0-3.831-2.658-7.004-6.658-7.485V7.363c0-2.723-0.916-4.265-1.585-4.973
+		               c-0.666-0.708-1.965-1.946-4.187-2.273c-2.688-0.395-4.584,0.167-6.686,2.269c-0.666,0.788-37.684,46.902-37.684,46.902
+		               c-1.297,1.637-1.851,3.729-1.597,5.741C112.425,56.967,113.445,58.785,115.019,60.006z M148.92,29.17v17.67h-13.318L148.92,29.17z"
+		               />
+	                   <path d="M189.369,74.72c4.289,0,7.551-3.315,7.551-7.547V44.84h22v22.333c0,4.231,3.218,7.547,7.449,7.547
+		               c4.289,0,7.551-3.315,7.551-7.547V7.665c0-4.232-3.262-7.548-7.551-7.548c-4.231,0-7.449,3.316-7.449,7.548V29.84h-22V7.665
+		               c0-4.232-3.262-7.548-7.551-7.548c-4.231,0-7.449,3.316-7.449,7.548v59.508C181.92,71.405,185.138,74.72,189.369,74.72z"/>
+	                  <path d="M235.002,88.84H61.504c-24.951,0-45.584,20.14-45.584,45.091v0.5c0,24.951,20.633,45.409,45.584,45.409h0.563
+		              l-16.616,68.527c-0.236,0.756-0.531,1.479-0.531,2.313v37c0,4.418,3.915,8.159,8.333,8.159h190c4.418,0,7.667-3.741,7.667-8.159
+		              v-37c0-0.957-0.01-1.792-0.319-2.642l-16.458-68.199h0.859c24.951,0,44.918-20.458,44.918-45.409v-0.5
+		              C279.92,108.98,259.953,88.84,235.002,88.84z M63.415,242.84l25.174-105h118.859l25.567,105H63.415z"/>
+	                 <circle cx="119.599" cy="156.168" r="9.091"/>
+	                 <circle cx="148.008" cy="156.168" r="9.091"/>
+	                 <circle cx="176.416" cy="156.168" r="9.091"/>
+	                 <circle cx="119.599" cy="184.576" r="9.091"/>
+	                 <circle cx="148.008" cy="184.576" r="9.091"/>
+	                 <circle cx="176.416" cy="184.576" r="9.091"/>
+	                 <path d="M119.599,203.895c-5.022,0-9.091,4.067-9.091,9.091c0,5.02,4.068,9.09,9.091,9.09c5.021,0,9.09-4.07,9.09-9.09
+	                 C128.689,207.962,124.619,203.895,119.599,203.895z"/>
+	                 <path d="M148.008,203.895c-5.021,0-9.091,4.067-9.091,9.091c0,5.02,4.069,9.09,9.091,9.09s9.09-4.07,9.09-9.09
+		             C157.098,207.962,153.029,203.895,148.008,203.895z"/>
+	                <path d="M176.416,203.895c-5.021,0-9.091,4.067-9.091,9.091c0,5.02,4.069,9.09,9.091,9.09s9.092-4.07,9.092-9.09
+		            C185.508,207.962,181.438,203.895,176.416,203.895z"/>
+                    </g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                    </svg>
+
+                        <p class="whyUs__item__text">
+                            24 saat servis
+                        </p>  
+                    </div>
+            </div>
+        </div>
+    </div>
+   </section>
+    <!--End-of-Why us Section-->
+    <!--Newsletter section-->
+    <section id="newsletter" data-aos="fade-up">
+        <div class="container">
+            <div class="newsletter__wrapper">
+                <div class="newsletter__info">
+                    <h3 class="newsletter__title">Xəbər bülleteninə qoşul</h3>
+                    <p class="newsletter__text">Yeniliklərdən xəbər almaq üçün bizi izlə</p>
+                </div> 
+                <div class="newsletter__form">
+                    <form action="">
+                        <label for="email">
+                            <input type="email" placeholder="Mail adressiniz:">
+                        </label>
+                        <button type="submit">Qoşul</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End-of-Newsletter section-->
+<!--Footer-->
+<footer>
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__col1">
+                <div class="footer__logo">
+                    <a href="./index.html"><img src="coffee.svg"></a>
+                </div>
+                    <p class="footer__desc">Lali's coffeeshop təzə qovrulmuş xüsusi keyfiyyətli (specialty) kofeni Azərbaycanda təqdim edən yerli markadır.</p>
+                <div class="footer__socials">
+                    <h4 class="footer_socials__title">Bizi izləyin</h4>
+                    <ol>
+                        <li><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-instagram">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                          </svg></a></li>
+                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-facebook">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                          </svg></a></li>
+                        <li><a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-twitter">
+                            <path
+                              d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                          </svg></a></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="footer__col2">
+                <h3 class="footer__text__title">Linklər</h3>
+                    <ol class="footer__text">
+                        <li><a href="./index.html">Əsas səhifə</a></li>
+                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="./booking.html">İndi sifariş edin</a></li>
+                        <li><a href="./about.html">Haqqımızda</a></li>
+                        <li><a href="./contact.html">Bizimlə əlaqə saxlayın</a></li>
+                        <li><a href="#">Müəllif hüquqları</a></li>
+                    </ol>
+            </div>
+            <div class="footer__col3">
+                <h3 class="footer__text__title">Dəstək</h3>
+                    <ol class="footer__text">
+                        <li><a href="./booking.html">İndi sifariş edin</a></li>
+                        <li><a href="#">Dəstək mərkəzi</a></li>
+                        <li><a href="#">Geri dönüş</a></li>
+                    </ol>
+            </div>
+            <div class="footer__col4">
+                <h3 class="footer__text__title">Əlaqə</h3>
+                    <ol class="footer__text">
+                        <li><a href="tel:+994503038406">+994-50-303-84-06</a></li>
+                        <li><a href="#">sadiqovfuad8@gmail.com</a></li>
+                        <li><a href="#">Bakı şəhəri</a></li>
+                    </ol>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="copyright">
+    <div class="container">
+        <div class="copyright__text">
+            © copyright 2021 Lali’s Cuisine | All rights reserved
+        </div>
+    </div>
+</div>
+<!--End footer-->
+<!-----aos.js------>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!-----custom script-->
+<script src="./main.js"></script>
+</body>
+</html>

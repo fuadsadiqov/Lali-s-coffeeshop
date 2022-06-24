@@ -1,0 +1,137 @@
+/*Page Title Styles */
+#page__title
+{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.page__title__text
+{
+    font-size: 2.2rem;
+    color: var(--black-2);
+}
+@media only screen and (min-width: 768px)
+{
+    #page__title
+    {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+    .page__title__text
+    {
+        font-size: 3rem;
+    }
+}
+/* Our Specials Menu Styles */
+#ourSpceials
+{
+    padding: 0;
+}
+.ourSpecials__title
+{
+    font-size: 1.8rem;
+    color: var(--black-2);
+    margin-bottom: 2rem;
+}
+.ourSpecials__wrapper
+{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    max-width: 400px;
+}
+.ourSpecials__item
+{
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    background-color: var(--brown-2);
+    padding: 1.5rem;
+    border-radius: 12px;
+}
+.ourSpecials__item__img,
+.ourSpecials__item__info
+{
+    flex: 1;
+}
+.ourSpecials__item__img
+{
+    border-radius: 12px;
+    overflow: hidden;
+}
+.ourSpecials__item__img img
+{
+    border-radius: 12px;
+    object-fit: cover;
+    max-width: 200px;
+    max-height: 150px;
+}
+.ourSpecials__item__title
+{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--black-2);
+    line-height: 1.2em;
+}
+.ourSpecials__item__title2 h3
+{
+    font-size: 1.4rem;
+}
+.ourSpecials__item__price
+{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+@media only screen and (min-width: 768px)
+{
+    .ourSpecials__wrapper
+    {
+        flex-direction: row;
+        gap: 2rem;
+        max-width: 800px;
+    }
+    .ourSpecials__item
+    {
+        padding: 2rem;
+        gap: 2rem;
+    }
+    .ourSpecials__title
+    {
+        font-size: 2.3rem;
+    }
+   .ourSpecials__item__title
+   {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+   }
+   .ourSpecials__item__title2 h3
+   {
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+   }
+   .ourSpecials__item__price
+   {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+   }
+}
+@media only screen and (min-width: 1100px)
+{
+    .ourSpecials__item__img
+    {
+        flex: 4;
+    }
+    .ourSpecials__item__info
+    {
+        flex: 3;
+    }
+}
+.dishGrid__wrapper
+{
+    margin-bottom: 6rem;
+}
+#dishGrid
+{
+    padding-bottom: 0;
+}
